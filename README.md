@@ -1,45 +1,152 @@
-# caspper
+# Caspper - Creative Digital Solutions
 
-This template should help get you started developing with Vue 3 in Vite.
+A modern, responsive website for Caspper, showcasing creative digital solutions and services. Built with Vue 3, TypeScript, and Vite.
 
-## Recommended IDE Setup
+## 🚀 Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Modern, responsive design
+- Smooth animations and transitions
+- Interactive UI components
+- Contact form integration with Google Forms
+- Social media integration
+- Optimized image loading and performance
 
-## Type Support for `.vue` Imports in TS
+## 🛠️ Tech Stack
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- **Framework**: Vue 3 with TypeScript
+- **Build Tool**: Vite
+- **Styling**: CSS with Scoped Components
+- **Animations**: GSAP (GreenSock Animation Platform)
+- **Form Handling**: Custom Google Forms Integration
 
-## Customize configuration
+## 📦 Project Structure
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+```
+src/
+├── assets/
+│   ├── images/
+│   │   ├── social-images/
+│   │   └── ...
+│   ├── base.css
+│   └── main.css
+├── components/
+│   ├── sections/
+│   │   ├── HomeSection.vue
+│   │   ├── AboutSection.vue
+│   │   ├── ServicesSection.vue
+│   │   └── ContactSection.vue
+│   ├── Header.vue
+│   └── BaseButton.vue
+├── utils/
+│   ├── animations.ts
+│   └── navigation.ts
+└── App.vue
+```
 
-## Project Setup
+## 🚀 Getting Started
 
-```sh
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone [your-repository-url]
+cd caspper
+```
+
+2. Install dependencies:
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+3. Create a `.env` file in the root directory with the following variables:
+```env
+VITE_GOOGLE_FORM_URL=your_google_form_url
+VITE_GOOGLE_FORM_NAME_ID=your_name_field_id
+VITE_GOOGLE_FORM_EMAIL_ID=your_email_field_id
+VITE_GOOGLE_FORM_MESSAGE_ID=your_message_field_id
+```
 
-```sh
+4. Start the development server:
+```bash
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Building for Production
 
-```sh
+```bash
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+The build artifacts will be stored in the `dist/` directory.
 
-```sh
-npm run test:unit
+## 🎨 Sections
+
+1. **Home Section**
+   - Hero section with animated illustrations
+   - Social media links
+   - Call-to-action buttons
+
+2. **About Section**
+   - Company description
+   - Mission statement
+   - Animated illustrations
+
+3. **Services Section**
+   - Web & App Development
+   - Digital Marketing
+   - Outsourcing & IT Support
+   - Graphic Design
+
+4. **Contact Section**
+   - Contact form
+   - Google Forms integration
+   - Success/Error handling
+
+## 📱 Responsive Design
+
+The website is fully responsive and optimized for:
+- Desktop
+- Tablet
+- Mobile devices
+
+## 🎯 Performance Optimizations
+
+- Optimized image loading
+- Lazy loading of components
+- Efficient animations
+- Proper asset bundling
+
+## 🔧 Development
+
+### Type Checking
+
+```bash
+npm run type-check
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Linting
 
-```sh
+```bash
 npm run lint
 ```
+
+## 📄 License
+
+[Your License]
+
+## 👥 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📞 Contact
+
+[Your Contact Information]
