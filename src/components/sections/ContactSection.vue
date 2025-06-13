@@ -173,7 +173,7 @@ const sendEmail = async () => {
 }
 
 .contact-title {
-    font-size: 315px;
+    font-size: 215px;
     position: absolute;
     bottom: 10px;
     right: 10px;
